@@ -48,7 +48,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nvda_drv=1</string>
+		<string>dart=0 darkwake=0 nvda_drv=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -109,8 +109,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>\EFI\BOOT\BOOTX64.EFI</string>
 			<string>Windows</string>
+			<string>\EFI\BOOT\BOOTX64.EFI</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -230,6 +230,8 @@
 		<string>Mac-27ADBB7B4CEE8E61</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02M2QIFFLHH3GF5K</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>ChassisAssetTag</key>
@@ -254,7 +256,7 @@
 					<key>Size</key>
 					<string>8192</string>
 					<key>Slot</key>
-					<string>2</string>
+					<string>1</string>
 					<key>Type</key>
 					<string>DDR4</string>
 					<key>Vendor</key>
@@ -266,7 +268,7 @@
 					<key>Size</key>
 					<string>8192</string>
 					<key>Slot</key>
-					<string>3</string>
+					<string>2</string>
 					<key>Type</key>
 					<string>DDR4</string>
 					<key>Vendor</key>
@@ -290,7 +292,7 @@
 					<key>Size</key>
 					<string>8192</string>
 					<key>Slot</key>
-					<string>1</string>
+					<string>3</string>
 					<key>Type</key>
 					<string>DDR4</string>
 					<key>Vendor</key>
@@ -304,6 +306,8 @@
 		<string>iMac14,2</string>
 		<key>SerialNumber</key>
 		<string>C02M2QIFFLHH</string>
+		<key>SmUUID</key>
+		<string>A411BC77-E05D-4609-B57D-E5BA12D93ABE</string>
 		<key>Trust</key>
 		<false/>
 		<key>Version</key>
