@@ -175,18 +175,18 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>10.11-AppleHDA/Realtek ALC...</string>
+				<string>External icons patch</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				gxnUEQ==
+				RXh0ZXJuYWw=
 				</data>
 				<key>Name</key>
-				<string>AppleHDA</string>
+				<string>AppleAHCIPort</string>
 				<key>Replace</key>
 				<data>
-				AAAAAA==
+				SW50ZXJuYWw=
 				</data>
 			</dict>
 			<dict>
@@ -207,6 +207,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>10.11-AppleHDA/Realtek ALC...</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gxnUEQ==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>10.9-10.11-AppleHDA/Realtek ALC898</string>
 				<key>Disabled</key>
 				<false/>
@@ -219,22 +235,6 @@
 				<key>Replace</key>
 				<data>
 				mQjsEA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>External icons patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>Name</key>
-				<string>AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
 				</data>
 			</dict>
 			<dict>
@@ -302,6 +302,18 @@
 					<key>Size</key>
 					<string>8192</string>
 					<key>Slot</key>
+					<string>2</string>
+					<key>Type</key>
+					<string>DDR4</string>
+					<key>Vendor</key>
+					<string>Fujitsu</string>
+				</dict>
+				<dict>
+					<key>Frequency</key>
+					<string>2133</string>
+					<key>Size</key>
+					<string>8192</string>
+					<key>Slot</key>
 					<string>0</string>
 					<key>Type</key>
 					<string>DDR4</string>
@@ -315,18 +327,6 @@
 					<string>8192</string>
 					<key>Slot</key>
 					<string>1</string>
-					<key>Type</key>
-					<string>DDR4</string>
-					<key>Vendor</key>
-					<string>Fujitsu</string>
-				</dict>
-				<dict>
-					<key>Frequency</key>
-					<string>2133</string>
-					<key>Size</key>
-					<string>8192</string>
-					<key>Slot</key>
-					<string>2</string>
 					<key>Type</key>
 					<string>DDR4</string>
 					<key>Vendor</key>
